@@ -1,1 +1,1 @@
-https://content-hub12.netlify.app/
+https://ai-content-hub12.netlify.app/
