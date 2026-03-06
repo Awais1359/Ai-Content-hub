@@ -62,10 +62,15 @@ export function Footer({ categories }: FooterProps) {
         </div>
 
         <div className="border-t border-gray-800 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-sm text-gray-400">
-              &copy; 2026 ContentHub. All rights reserved.
-            </p>
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <div>
+              <p className="text-sm text-gray-400">
+                &copy; 2026 ContentHub. All rights reserved.
+              </p>
+              <p className="text-xs text-gray-500 mt-2">
+                Developed by Awais Rao
+              </p>
+            </div>
             <div className="flex space-x-6 text-sm mt-4 md:mt-0">
               <Link to="/privacy" className="hover:text-blue-400 transition-colors">
                 Privacy Policy
